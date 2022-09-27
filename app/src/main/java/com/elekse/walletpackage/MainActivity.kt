@@ -21,5 +21,6 @@ class MainActivity : AppCompatActivity(), WalletRequestProcessInterface {
 
     override fun isProcessing(response: ResponseClass) {
         println("IsProcessing - $response")
+        println("IsProcessing - $response")
     }
 }
